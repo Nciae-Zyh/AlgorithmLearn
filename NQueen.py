@@ -56,9 +56,9 @@ if __name__ == '__main__':
     solve = []
     backtrack(0,n,queen,attack,solve)
     i = 0
-    #for queen in solve:
-    #    i = i+1
-    #    print('第%s种解法：'%i)
-    #    for row in queen:
-    #        print(row)
+    for queen in solve:
+        i = i+1
+        print('第%s种解法：'%i)
+        for row in queen:
+            print(row)
     print('共有%d种解法'%len(solve))
