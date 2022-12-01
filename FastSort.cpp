@@ -2,6 +2,7 @@
 #include<random>
 #include<ctime>
 using namespace std;
+// 快速排序的c++实现
 void QuickSort(int array[],int L,int R)
 {
     if(L>R)

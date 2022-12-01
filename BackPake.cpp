@@ -2,6 +2,7 @@
 #include<cmath>
 using namespace std;
 
+// 0-1背包问题c++实现
 
 int backPake(int w[],int v[],int m,int num){
     int dp[num+1][m+1];
